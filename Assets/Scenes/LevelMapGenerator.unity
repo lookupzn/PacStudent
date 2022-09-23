@@ -1131,7 +1131,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.32, y: 0.32}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -1488,7 +1488,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.32, y: 0.32}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -5162,7 +5162,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.32, y: 0.32}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -6536,8 +6536,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 675524849}
+  - component: {fileID: 675524850}
   m_Layer: 0
-  m_Name: Level01
+  m_Name: LevelMapGenerator
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6768,6 +6769,35 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &675524850
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 675524848}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8b343b081eb99e43bc063c4f0cb49c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spriteDatas:
+  - Type: 0
+    Sprite: {fileID: 0}
+  - Type: 1
+    Sprite: {fileID: -1506708956, guid: 8e0522a876654994280ae3c2d0152294, type: 3}
+  - Type: 2
+    Sprite: {fileID: -1979005767, guid: 8e0522a876654994280ae3c2d0152294, type: 3}
+  - Type: 3
+    Sprite: {fileID: 101171003, guid: 8e0522a876654994280ae3c2d0152294, type: 3}
+  - Type: 4
+    Sprite: {fileID: -293323399, guid: 8e0522a876654994280ae3c2d0152294, type: 3}
+  - Type: 5
+    Sprite: {fileID: -1196691302, guid: 8e0522a876654994280ae3c2d0152294, type: 3}
+  - Type: 6
+    Sprite: {fileID: -192612462, guid: 8e0522a876654994280ae3c2d0152294, type: 3}
+  - Type: 7
+    Sprite: {fileID: 1150824793, guid: 8e0522a876654994280ae3c2d0152294, type: 3}
 --- !u!1 &682526872
 GameObject:
   m_ObjectHideFlags: 0
@@ -7114,7 +7144,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.32, y: 0.32}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -18231,7 +18261,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.32, y: 0.32}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -19530,7 +19560,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.32, y: 0.32}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
